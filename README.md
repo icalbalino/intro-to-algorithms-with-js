@@ -5,7 +5,7 @@ _A Practical Introduction to Algorithms_ by **_Ical Balino_**
 Apa itu algoritma? <br>
 Mengapa Anda harus peduli? <br>
 
-Algoritma adalah langkah-langkah yang Anda ambil untuk memecahkan suatu masalah. You're an engineer, it's your job to solve problems. Ketika kita belajar tentang algoritma, kita mempelajari berbagai teknik untuk memecahkan masalah.
+Algoritma adalah langkah-langkah yang Anda ambil untuk memecahkan suatu masalah. **You're an engineer, it's your job to solve problems**. Ketika kita belajar tentang algoritma, kita mempelajari berbagai teknik untuk memecahkan masalah.
 
 
 ## Space and Time Complexity
@@ -17,11 +17,10 @@ What makes an algorithm fast?
 - Time Complexity <br>
     How many primitive **operations** are executed?
 
-...with respect to input size
+...with respect to input size <br>
 ...and assuming worst case scenarios
 
 Problem:
-
 Given a list of hotels, return the price range of hotels in a given search result.
 
 Berharap semakin banyak data yang dimiliki, semakin lama waktu yang dibutuhkan untuk mengetahui minimum dan maksimum yang diperlukan untuk rentang tersebut.
