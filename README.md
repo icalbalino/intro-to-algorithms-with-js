@@ -35,7 +35,7 @@ How many comparisons were made?
 - Approach 3: Sorted List (2) -> name (constant), Big-O notation -> O(1)
 
 
-**Big-O Notation**:
+### **Big-O Notation**:
 
 <table style="border-collapse: collapse; width:50%; text-align:left;">
     <tr>
@@ -66,7 +66,7 @@ How many comparisons were made?
 **That's something that when people get started with this, they just assume that n is always going to be the length of the array or n is always going to be a certain input, and it's not necessarily. so you need to really think about how your code is executing and what is changing as your input changes.
 
 
-**Complexity of Common Operations**
+### **Complexity of Common Operations**
 
 <table style="border-collapse: collapse; width:50%; text-align:left;">
     <tr>
@@ -100,17 +100,19 @@ How many comparisons were made?
 </table>
 
 
-**Space Complexity & Review**
+### **Space Complexity & Review**
 
-<br> "Yeah, so stacks and queues. Those are data structures. And it's all about the space that it takes up in memory, right? So if your algorithm is copying your array a bunch of times and you're making a new array, then in memory you're having like five arrays, and that's you know, a certain amount of space complexity".
-<br> "As time complexity, except that instead of the number of operations that are being executed, we're thinking about how much more space are we taking up? So our array for every loop creating a new array".
+"Yeah, so stacks and queues. Those are data structures. And it's all about the space that it takes up in memory, right? So if your algorithm is copying your array a bunch of times and you're making a new array, then in memory you're having like five arrays, and that's you know, a certain amount of space complexity".
 
-<br> "So things to think about when you're thinking about space complexity is are you making a new data structure? How often are you doing it? In compared to in comparison to your input, and also with your call stack if you're doing recursion? That's another thing to consider is that that stack is also taking place in memory".
+"As time complexity, except that instead of the number of operations that are being executed, we're thinking about how much more space are we taking up? So our array for every loop creating a new array".
 
-<br> Kompleksitas waktu dari suatu algoritma menandakan total waktu yang dibutuhkan oleh program untuk berjalan sampai selesai. Kompleksitas waktu algoritma paling sering diekspresikan menggunakan the Big O notation.
-<br> The Big O notation memberi kita bahasa standar industri untuk membahas kinerja algoritme. Tidak mengetahui cara berbicara bahasa ini dapat membuat Anda menonjol sebagai programmer yang tidak berpengalaman.
-<br> The complexity differs depending on the input data, but we tend to weigh the worst-case.
+"So things to think about when you're thinking about space complexity is are you making a new data structure? How often are you doing it? In compared to in comparison to your input, and also with your call stack if you're doing recursion? That's another thing to consider is that that stack is also taking place in memory".
 
-<br> There are other notations that are typically used in academic settings. Learn more [here](https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/).
-<br> The complexity differs depending on the input data, but we tend to weigh the worst-case.
-<br> The Big-O Cheat Sheet [here](https://www.bigocheatsheet.com/)
+Kompleksitas waktu dari suatu algoritma menandakan total waktu yang dibutuhkan oleh program untuk berjalan sampai selesai. Kompleksitas waktu algoritma paling sering diekspresikan menggunakan the Big O notation.
+
+The Big O notation memberi kita bahasa standar industri untuk membahas kinerja algoritme. Tidak mengetahui cara berbicara bahasa ini dapat membuat Anda menonjol sebagai programmer yang tidak berpengalaman.
+
+The complexity differs depending on the input data, but we tend to weigh the worst-case.
+
+- There are other notations that are typically used in academic settings. Learn more [here](https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/).
+- The Big-O Cheat Sheet [here](https://www.bigocheatsheet.com/)
