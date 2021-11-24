@@ -44,7 +44,7 @@ How many comparisons were made?
         <td>SUPER SLOW</td>
     </tr>
     <tr>
-        <th style="border: 1px solid grey; padding: 5px; text-align:left;">Name</th>
+        <th style="border: 1px solid grey; padding: 5px;">Name</th>
         <td style="border: 1px solid grey; padding: 5px;">constant</td>
         <td style="border: 1px solid grey; padding: 5px;">logarithmic</td>
         <td style="border: 1px solid grey; padding: 5px;">linear</td>
@@ -52,7 +52,7 @@ How many comparisons were made?
         <td style="border: 1px solid grey; padding: 5px;">exponential</td>
     </tr>
     <tr>
-        <th style="border: 1px solid grey; padding: 5px; text-align:left;">Notation</th>
+        <th style="border: 1px solid grey; padding: 5px;">Notation</th>
         <td style="border: 1px solid grey; padding: 5px;">O(1)</td>
         <td style="border: 1px solid grey; padding: 5px;">O(logn)</td>
         <td style="border: 1px solid grey; padding: 5px;">O(n)</td>
@@ -61,27 +61,44 @@ How many comparisons were made?
     </tr>
 </table>
 
-<br> But what you need to be mindful of is what is n, because you're going to have a lot of different data points in your methods or in your algorithms. And so you want to make sure that you're identifying, like what is the data set that's growing. And if you have more than one data set that has a variable length, you're going to need to take that into consideration.
+**But what you need to be mindful of is what is n, because you're going to have a lot of different data points in your methods or in your algorithms. And so you want to make sure that you're identifying, like what is the data set that's growing. And if you have more than one data set that has a variable length, you're going to need to take that into consideration.
 
-<br> That's something that when people get started with this, they just assume that n is always going to be the length of the array or n is always going to be a certain input, and it's not necessarily. so you need to really think about how your code is executing and what is changing as your input changes.
+**That's something that when people get started with this, they just assume that n is always going to be the length of the array or n is always going to be a certain input, and it's not necessarily. so you need to really think about how your code is executing and what is changing as your input changes.
+
 
 **Complexity of Common Operations**
 
-<br> +--------------------------------------------------------------+
-<br> |Complexity    |Operation                                      |
-<br> |--------------|-----------------------------------------------|
-<br> |O(1)          |Running a statement                            |
-<br> |--------------|-----------------------------------------------|
-<br> |O(1)          |Value look-up on an array, object, variable    |
-<br> |--------------|-----------------------------------------------|
-<br> |O(logn)       |Loop that cuts problem in half every iteration |
-<br> |--------------|-----------------------------------------------|
-<br> |O(n)	        |Looping through the values of an array         |
-<br> |--------------|-----------------------------------------------|
-<br> |O(n^2)	    |Double nested loops                            |
-<br> |--------------|-----------------------------------------------|
-<br> |O(n^3)	    |Triple nested loops                            |
-<br> +--------------------------------------------------------------+
+<table style="border-collapse: collapse; width:50%; text-align:left;">
+    <tr>
+        <th style="border: 1px solid grey; padding: 5px;">Complexity</th>
+        <th style="border: 1px solid grey; padding: 5px;">Operation</th>
+    </tr>
+    <tr>
+        <td style="border: 1px solid grey; padding: 5px;">O(1)</td>
+        <td style="border: 1px solid grey; padding: 5px;">Running a statement</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid grey; padding: 5px;">O(1)</td>
+        <td style="border: 1px solid grey; padding: 5px;">Value look-up on an array, object, variable</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid grey; padding: 5px;">O(logn)</td>
+        <td style="border: 1px solid grey; padding: 5px;">Loop that cuts problem in half every iteration</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid grey; padding: 5px;">O(n)</td>
+        <td style="border: 1px solid grey; padding: 5px;">Looping through the values of an array</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid grey; padding: 5px;">O(n^2)</td>
+        <td style="border: 1px solid grey; padding: 5px;">Double nested loops </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid grey; padding: 5px;">O(n^3)</td>
+        <td style="border: 1px solid grey; padding: 5px;">Triple nested loops</td>
+    </tr>
+</table>
+
 
 **Space Complexity & Review**
 
