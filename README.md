@@ -1,4 +1,5 @@
 <body style="text-align: justify;">
+
 # intro-to-algorithms-with-js
 
 _A Practical Introduction to Algorithms_ by **_Ical Balino_**
