@@ -9,6 +9,7 @@ Mengapa Anda harus peduli? <br>
 Algoritma adalah langkah-langkah yang Anda ambil untuk memecahkan suatu masalah. **You're an engineer, it's your job to solve problems**. Ketika kita belajar tentang algoritma, kita mempelajari berbagai teknik untuk memecahkan masalah.
 </p>
 
+
 ## Space and Time Complexity
 
 What makes an algorithm fast?
@@ -21,7 +22,6 @@ What makes an algorithm fast?
 ...with respect to input size <br>
 ...and assuming worst case scenarios
 
-<p align="justify">
 Problem: <br>
 Given a list of hotels, return the price range of hotels in a given search result.
 
@@ -31,7 +31,6 @@ However, as our dataset grows, the cost can grow really fast or slow!
 
 As our data grows, how much does our work increase? <br>
 How many comparisons were made?
-</p>
 
 - Approach 1: compare all numbers to one another (n^2) -> name (quadratic), Big-O notation -> O(n^2)
 - Approach 2: Track min & max (2n) -> name (linear), Big-O notation -> O(n)
