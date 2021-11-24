@@ -20,7 +20,7 @@ What makes an algorithm fast?
 ...with respect to input size <br>
 ...and assuming worst case scenarios
 
-Problem:
+Problem: <br>
 Given a list of hotels, return the price range of hotels in a given search result.
 
 Berharap semakin banyak data yang dimiliki, semakin lama waktu yang dibutuhkan untuk mengetahui minimum dan maksimum yang diperlukan untuk rentang tersebut.
@@ -37,6 +37,29 @@ How many comparisons were made?
 
 **Big-O Notation**:
 
+<table style="box-sizing: border-box; border-collapse: collapse; width:50%; text-align:left;">
+    <tr>
+        <td></td>
+        <td colspan="4">SUPER FAST</td>
+        <td>SUPER SLOW</td>
+    </tr>
+    <tr>
+        <th style="border: 1px solid grey; padding: 5px;">Name</th>
+        <td style="border: 1px solid grey; padding: 5px;">constant</td>
+        <td style="border: 1px solid grey; padding: 5px;">logarithmic</td>
+        <td style="border: 1px solid grey; padding: 5px;">linear</td>
+        <td style="border: 1px solid grey; padding: 5px;">quadratic</td>
+        <td style="border: 1px solid grey; padding: 5px;">exponential</td>
+    </tr>
+    <tr>
+        <th style="border: 1px solid grey; padding: 5px;">Notation</th>
+        <td style="border: 1px solid grey; padding: 5px;">O(1)</td>
+        <td style="border: 1px solid grey; padding: 5px;">O(logn)</td>
+        <td style="border: 1px solid grey; padding: 5px;">O(n)</td>
+        <td style="border: 1px solid grey; padding: 5px;">O(n^2)</td>
+        <td style="border: 1px solid grey; padding: 5px;">O(k^n)</td>
+    </tr>
+</table>
 <br> SUPER FAST ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| SUPER SLOW
 <br> +----------------------------------------------------------------------------------+
 <br> |Name        |constant     |logarithmic	|linear     |quadratic	|exponential    |
