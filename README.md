@@ -66,7 +66,9 @@ How many comparisons were made?
 
 <p align="justify">
 **But what you need to be mindful of is what is n, because you're going to have a lot of different data points in your methods or in your algorithms. And so you want to make sure that you're identifying, like what is the data set that's growing. And if you have more than one data set that has a variable length, you're going to need to take that into consideration.
+</p>
 
+<p align="justify">
 **That's something that when people get started with this, they just assume that n is always going to be the length of the array or n is always going to be a certain input, and it's not necessarily. so you need to really think about how your code is executing and what is changing as your input changes.
 </p>
 
@@ -109,15 +111,25 @@ How many comparisons were made?
 
 <p align="justify">
 "Yeah, so stacks and queues. Those are data structures. And it's all about the space that it takes up in memory, right? So if your algorithm is copying your array a bunch of times and you're making a new array, then in memory you're having like five arrays, and that's you know, a certain amount of space complexity".
+</p>
 
+<p align="justify">
 "As time complexity, except that instead of the number of operations that are being executed, we're thinking about how much more space are we taking up? So our array for every loop creating a new array".
+</p>
 
+<p align="justify">
 "So things to think about when you're thinking about space complexity is are you making a new data structure? How often are you doing it? In compared to in comparison to your input, and also with your call stack if you're doing recursion? That's another thing to consider is that that stack is also taking place in memory".
+</p>
 
+<p align="justify">
 Kompleksitas waktu dari suatu algoritma menandakan total waktu yang dibutuhkan oleh program untuk berjalan sampai selesai. Kompleksitas waktu algoritma paling sering diekspresikan menggunakan the Big O notation.
+</p>
 
+<p align="justify">
 The Big O notation memberi kita bahasa standar industri untuk membahas kinerja algoritme. Tidak mengetahui cara berbicara bahasa ini dapat membuat Anda menonjol sebagai programmer yang tidak berpengalaman.
+</p>
 
+<p align="justify">
 The complexity differs depending on the input data, but we tend to weigh the worst-case.
 </p>
 
