@@ -37,7 +37,7 @@ How many comparisons were made?
 
 **Big-O Notation**:
 
-<table style="box-sizing: border-box; border-collapse: collapse; width:50%; text-align:left;">
+<table style="border-collapse: collapse; width:50%; text-align:left;">
     <tr>
         <td></td>
         <td colspan="4">SUPER FAST</td>
