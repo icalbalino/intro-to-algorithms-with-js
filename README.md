@@ -37,7 +37,7 @@ How many comparisons were made?
 
 **Big-O Notation**:
 
-<table style="box-sizing: border-box; border-collapse: collapse; width:50%; text-align:left;">
+<table style="border-collapse: collapse; width:50%; text-align:left;">
     <tr>
         <td></td>
         <td colspan="4">SUPER FAST</td>
@@ -52,7 +52,7 @@ How many comparisons were made?
         <td style="border: 1px solid grey; padding: 5px;">exponential</td>
     </tr>
     <tr>
-        <th style="border: 1px solid grey; padding: 5px;">Notation</th>
+        <th style="border: 1px solid grey; padding: 5px; text-align:left;">Notation</th>
         <td style="border: 1px solid grey; padding: 5px;">O(1)</td>
         <td style="border: 1px solid grey; padding: 5px;">O(logn)</td>
         <td style="border: 1px solid grey; padding: 5px;">O(n)</td>
@@ -60,12 +60,6 @@ How many comparisons were made?
         <td style="border: 1px solid grey; padding: 5px;">O(k^n)</td>
     </tr>
 </table>
-<br> SUPER FAST ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| SUPER SLOW
-<br> +----------------------------------------------------------------------------------+
-<br> |Name        |constant     |logarithmic	|linear     |quadratic	|exponential    |
-<br> |------------|-------------|---------------|-----------|-----------|---------------|
-<br> |Notation    |O(1)         |O(logn)	    |O(n)	    |O(n^2)	    |O(k^n)         |
-<br> +----------------------------------------------------------------------------------+
 
 <br> But what you need to be mindful of is what is n, because you're going to have a lot of different data points in your methods or in your algorithms. And so you want to make sure that you're identifying, like what is the data set that's growing. And if you have more than one data set that has a variable length, you're going to need to take that into consideration.
 
