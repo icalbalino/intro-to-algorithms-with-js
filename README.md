@@ -1,4 +1,4 @@
-<body align="justify">
+<p align="center">
 
 # intro-to-algorithms-with-js
 
@@ -119,4 +119,4 @@ The complexity differs depending on the input data, but we tend to weigh the wor
 - There are other notations that are typically used in academic settings. Learn more [here](https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/).
 - The Big-O Cheat Sheet [here](https://www.bigocheatsheet.com/)
 
-</body>
+</p>
