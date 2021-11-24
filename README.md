@@ -1,3 +1,4 @@
+<body style="text-align: justify;">
 # intro-to-algorithms-with-js
 
 _A Practical Introduction to Algorithms_ by **_Ical Balino_**
@@ -116,3 +117,5 @@ The complexity differs depending on the input data, but we tend to weigh the wor
 
 - There are other notations that are typically used in academic settings. Learn more [here](https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/).
 - The Big-O Cheat Sheet [here](https://www.bigocheatsheet.com/)
+
+</>
