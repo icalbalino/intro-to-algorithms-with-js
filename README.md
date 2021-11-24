@@ -1,5 +1,3 @@
-<p align="justify">
-
 # intro-to-algorithms-with-js
 
 _A Practical Introduction to Algorithms_ by **_Ical Balino_**
@@ -23,6 +21,7 @@ What makes an algorithm fast?
 ...with respect to input size <br>
 ...and assuming worst case scenarios
 
+<p align="justify">
 Problem: <br>
 Given a list of hotels, return the price range of hotels in a given search result.
 
@@ -32,6 +31,7 @@ However, as our dataset grows, the cost can grow really fast or slow!
 
 As our data grows, how much does our work increase? <br>
 How many comparisons were made?
+</p>
 
 - Approach 1: compare all numbers to one another (n^2) -> name (quadratic), Big-O notation -> O(n^2)
 - Approach 2: Track min & max (2n) -> name (linear), Big-O notation -> O(n)
@@ -40,7 +40,7 @@ How many comparisons were made?
 
 ### **Big-O Notation**:
 
-<table style="border-collapse: collapse; width:50%; text-align:left;">
+<table align="left" style="border-collapse: collapse; width:50%; text-align:left;">
     <tr>
         <td></td>
         <td colspan="4">SUPER FAST</td>
@@ -64,14 +64,16 @@ How many comparisons were made?
     </tr>
 </table>
 
+<p align="justify">
 **But what you need to be mindful of is what is n, because you're going to have a lot of different data points in your methods or in your algorithms. And so you want to make sure that you're identifying, like what is the data set that's growing. And if you have more than one data set that has a variable length, you're going to need to take that into consideration.
 
 **That's something that when people get started with this, they just assume that n is always going to be the length of the array or n is always going to be a certain input, and it's not necessarily. so you need to really think about how your code is executing and what is changing as your input changes.
+</p>
 
 
 ### **Complexity of Common Operations**
 
-<table style="border-collapse: collapse; width:50%; text-align:left;">
+<table align="left" style="border-collapse: collapse; width:50%; text-align:left;">
     <tr>
         <th style="border: 1px solid grey; padding: 5px;">Complexity</th>
         <th style="border: 1px solid grey; padding: 5px;">Operation</th>
@@ -105,6 +107,7 @@ How many comparisons were made?
 
 ### **Space Complexity & Review**
 
+<p align="justify">
 "Yeah, so stacks and queues. Those are data structures. And it's all about the space that it takes up in memory, right? So if your algorithm is copying your array a bunch of times and you're making a new array, then in memory you're having like five arrays, and that's you know, a certain amount of space complexity".
 
 "As time complexity, except that instead of the number of operations that are being executed, we're thinking about how much more space are we taking up? So our array for every loop creating a new array".
@@ -119,5 +122,4 @@ The complexity differs depending on the input data, but we tend to weigh the wor
 
 - There are other notations that are typically used in academic settings. Learn more [here](https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/).
 - The Big-O Cheat Sheet [here](https://www.bigocheatsheet.com/)
-
 </p>
