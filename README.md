@@ -119,7 +119,8 @@ Kompleksitas waktu dari suatu algoritma menandakan total waktu yang dibutuhkan o
 The Big O notation memberi kita bahasa standar industri untuk membahas kinerja algoritme. Tidak mengetahui cara berbicara bahasa ini dapat membuat Anda menonjol sebagai programmer yang tidak berpengalaman.
 
 The complexity differs depending on the input data, but we tend to weigh the worst-case.
+</p>
 
 - There are other notations that are typically used in academic settings. Learn more [here](https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/).
 - The Big-O Cheat Sheet [here](https://www.bigocheatsheet.com/)
-</p>
+
