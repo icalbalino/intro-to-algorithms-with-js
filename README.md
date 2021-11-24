@@ -32,9 +32,9 @@ However, as our dataset grows, the cost can grow really fast or slow!
 As our data grows, how much does our work increase? <br>
 How many comparisons were made?
 
-- Approach 1: compare all numbers to one another (n^2) -> name (quadratic), Big-O notation -> <code>O(n^2)</code>
-- Approach 2: Track min & max (2n) -> name (linear), Big-O notation -> O(n)
-- Approach 3: Sorted List (2) -> name (constant), Big-O notation -> O(1)
+- Approach 1: compare all numbers to one another (n^2) --> name (quadratic), Big-O notation --> <code>O(n^2)</code>
+- Approach 2: Track min & max (2n) --> name (linear), Big-O notation --> <code>O(n)</code>
+- Approach 3: Sorted List (2) --> name (constant), Big-O notation --> <code>O(1)</code>
 
 
 ### **Big-O Notation**:
@@ -64,11 +64,11 @@ How many comparisons were made?
 </table>
 
 <p align="justify">
-**But what you need to be mindful of is what is n, because you're going to have a lot of different data points in your methods or in your algorithms. And so you want to make sure that you're identifying, like what is the data set that's growing. And if you have more than one data set that has a variable length, you're going to need to take that into consideration.
+But what you need to be mindful of is what is <code>n</code>, because you're going to have a lot of different data points in your methods or in your algorithms. And so you want to make sure that you're identifying, like what is the data set that's growing. And if you have more than one data set that has a variable length, you're going to need to take that into consideration.
 </p>
 
 <p align="justify">
-**That's something that when people get started with this, they just assume that n is always going to be the length of the array or n is always going to be a certain input, and it's not necessarily. so you need to really think about how your code is executing and what is changing as your input changes.
+That's something that when people get started with this, they just assume that <code>n</code> is always going to be the length of the <code>array</code> or <code>n</code> is always going to be a certain input, and it's not necessarily. so you need to really think about how your code is executing and what is changing as your input changes.
 </p>
 
 
