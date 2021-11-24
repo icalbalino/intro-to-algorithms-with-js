@@ -44,7 +44,7 @@ How many comparisons were made?
         <td>SUPER SLOW</td>
     </tr>
     <tr>
-        <th style="border: 1px solid grey; padding: 5px;">Name</th>
+        <th style="border: 1px solid grey; padding: 5px; text-align:left;">Name</th>
         <td style="border: 1px solid grey; padding: 5px;">constant</td>
         <td style="border: 1px solid grey; padding: 5px;">logarithmic</td>
         <td style="border: 1px solid grey; padding: 5px;">linear</td>
