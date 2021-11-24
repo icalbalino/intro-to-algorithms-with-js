@@ -1,4 +1,4 @@
-<body style="text-align: justify;">
+<body align="justify">
 
 # intro-to-algorithms-with-js
 
