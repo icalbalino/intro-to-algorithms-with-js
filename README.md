@@ -7,31 +7,34 @@ Mengapa Anda harus peduli? <br>
 
 Algoritma adalah langkah-langkah yang Anda ambil untuk memecahkan suatu masalah. You're an engineer, it's your job to solve problems. Ketika kita belajar tentang algoritma, kita mempelajari berbagai teknik untuk memecahkan masalah.
 
+
 ## Space and Time Complexity
 
-What makes an algorithm fast? <br>
+What makes an algorithm fast?
 
-- Space Complexity
+- Space Complexity <br>
     How much **memory** is used?
-- Time Complexity
+- Time Complexity <br>
     How many primitive **operations** are executed?
 
-<br>...with respect to input size
-<br>...and assuming worst case scenarios
+...with respect to input size
+...and assuming worst case scenarios
 
-<br>Problem:<br>
-Given a list of hotels, return the price range of hotels in a given search result. <br>
+Problem:
 
-Berharap semakin banyak data yang dimiliki, semakin lama waktu yang dibutuhkan untuk mengetahui minimum dan maksimum yang diperlukan untuk rentang tersebut. <br>
+Given a list of hotels, return the price range of hotels in a given search result.
+
+Berharap semakin banyak data yang dimiliki, semakin lama waktu yang dibutuhkan untuk mengetahui minimum dan maksimum yang diperlukan untuk rentang tersebut.
 
 However, as our dataset grows, the cost can grow really fast or slow!
 
-<br>As our data grows, how much does our work increase?
-<br>How many comparisons were made?
+As our data grows, how much does our work increase? <br>
+How many comparisons were made?
 
-<br>Approach 1: compare all numbers to one another (n^2) -> name (quadratic), Big-O notation -> O(n^2)
-<br>Approach 2: Track min & max (2n) -> name (linear), Big-O notation -> O(n)
-<br>Approach 3: Sorted List (2) -> name (constant), Big-O notation -> O(1)
+- Approach 1: compare all numbers to one another (n^2) -> name (quadratic), Big-O notation -> O(n^2)
+- Approach 2: Track min & max (2n) -> name (linear), Big-O notation -> O(n)
+- Approach 3: Sorted List (2) -> name (constant), Big-O notation -> O(1)
+
 
 **Big-O Notation**:
 
