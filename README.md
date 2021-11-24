@@ -40,7 +40,7 @@ How many comparisons were made?
 
 ### **Big-O Notation**:
 
-<table align="left" style="border-collapse: collapse; width:50%; text-align:left;">
+<table style="border-collapse: collapse; width:50%; text-align:left;">
     <tr>
         <td></td>
         <td colspan="4">SUPER FAST</td>
@@ -73,7 +73,7 @@ How many comparisons were made?
 
 ### **Complexity of Common Operations**
 
-<table align="left" style="border-collapse: collapse; width:50%; text-align:left;">
+<table style="border-collapse: collapse; width:50%; text-align:left;">
     <tr>
         <th style="border: 1px solid grey; padding: 5px;">Complexity</th>
         <th style="border: 1px solid grey; padding: 5px;">Operation</th>
