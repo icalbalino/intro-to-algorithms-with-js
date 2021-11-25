@@ -137,3 +137,21 @@ The complexity differs depending on the input data, but we tend to weigh the wor
 
 
 ## Optimization with Caching
+- sorting
+- caching with memoization
+
+    Memoization is a type of caching as well. The difference between memoization and the breadcrumbs method is that the value that we're getting to cache, so we read an array at `i` and save that into our breadcrumbs object, is not the result of a function.
+
+    If you're caching the result is a function we call that **memoization**. Caching really in the simplest form in a job environment is saving something into an `object` or an `array`.
+
+    Memoization: caching the value that a function returns.
+
+```
+const factorial = (n) => {
+    // Calculations: n * (n-1) * (n-2) * ... (2) * (1)
+    return factorial;
+}
+factorial(35);
+factorial(36); // factorial(36) = factorial(35) * 36;
+
+```
