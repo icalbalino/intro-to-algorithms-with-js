@@ -208,12 +208,12 @@ which is contrasted with W.E.T, which stands for "we enjoy typing" or "write eve
 
 - Recursion in 4 Steps
 
-1. Identify base case(s). <br>
-    The typical recipe for recursion is to identify your base case, which is when do you want your loop to stop. Like that's the condition of loop. And that's your base case.
-2. Identify recursive case(s). <br>
-    The recursive case is the work that you want to do, So we need to identify that recursive case and we need to make sure that each time we call our recursion we're getting closer to our base case. Because otherwise, we never meet our base case, we're going to loop forever.
-3. Return where appropriate.
-4. Write procedures for each case that bring you closer to the base case(s).
+    1. Identify base case(s). <br>
+       The typical recipe for recursion is to identify your base case, which is when do you want your loop to stop. Like that's the condition of loop. And that's your base case.
+    2. Identify recursive case(s). <br>
+        The recursive case is the work that you want to do, So we need to identify that recursive case and we need to make sure that each time we call our recursion we're getting closer to our base case. Because otherwise, we never meet our base case, we're going to loop forever.
+    3. Return where appropriate.
+    4. Write procedures for each case that bring you closer to the base case(s).
 
 
 ```
