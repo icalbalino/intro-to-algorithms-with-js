@@ -186,7 +186,8 @@ which is contrasted with W.E.T, which stands for "we enjoy typing" or "write eve
 
     until... <br>
     ... another fn is called:
-    - Pause the current execution and start at step 1. <br>
+    - Pause the current execution and start at step 1.
+    
     ... a return is hit:
     - Pop the current Fn off the stack.
     - Resume executing the previous Fn.
