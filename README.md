@@ -157,3 +157,93 @@ The complexity differs depending on the input data, but we tend to weigh the wor
         factorial(36); // factorial(36) = factorial(35) * 36;
     
     ```
+
+
+## Recursion
+
+Recursion is simply when a function calls itself; however it doesn't stop there.
+
+Why Recursion?
+
+Elegant solutions to keep your code D.R.Y. Expected CS knowledge. <br>
+which is contrasted with W.E.T, which stands for "we enjoy typing" or "write everything twice".
+
+### **Call Stack Game**
+
+**The Rules**
+```
+
+    var callMe = function() {
+    callMe();
+    callMe();
+    callMe('anytime');
+    };
+
+```
+
+1. Push **_called_** Fn on stack.
+2. Execute Fn body.
+
+    until... <br>
+    ... another fn is called:
+        Pause the current execution and start at step 1.
+
+    ... a return is hit:
+        Pop the current Fn off the stack.
+        Resume executing the previous Fn.
+
+```
+
+    var tracker = 0;
+    var callMe = function() {
+    tracker++
+    if (tracker === 3) {
+        return 'loops!';
+    }
+    callMe('anytime');
+    };
+
+```
+
+### **Looping with Recursion**
+
+- Recursion in 4 Steps
+
+    1. Identify base case(s).
+        The typical recipe for recursion is to identify your base case, which is when do you want your loop to stop. Like that's the condition of loop. And that's your base case.
+    2. Identify recursive case(s).
+        The recursive case is the work that you want to do, So we need to identify that recursive case and we need to make sure that each time we call our recursion we're getting closer to our base case. Because otherwise, we never meet our base case, we're going to loop forever.
+    3. Return where appropriate.
+    4. Write procedures for each case that bring you closer to the base case(s).
+
+    ```
+
+        var callMyself = function() {
+            if() {
+                // base case
+                return;
+            } else {
+                // recursive case
+                callMyself();
+            }
+            return;
+        };
+
+    ```
+
+    Get really familiar with translating loops into recursion and recursion into loops, that's the goal. Because loops are easy to reason about recursion, is just a loop. How do we put those two things together that's what we're doing.
+
+- Looping
+- Factorial with a Loop and Recursion
+- Loop to Recursion
+- Recursions .vs Loops
+    Recursion can always be implemented as a loop, but in some situations, believe it or not, it is simpler to use recursion.
+
+    **Tail-Call Optimization**
+
+    [ES6](https://262.ecma-international.org/6.0/#sec-tail-position-calls) offers TCO, which allows some functions to be called without growing the call stack. Read more [here](https://2ality.com/2015/06/tail-call-optimization.html) and [here](https://www.integralist.co.uk/posts/js-recursion.html).
+
+### Common Patterns For Recursion
+
+- Wrapper Functions
+- Accumulators
