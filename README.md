@@ -174,9 +174,9 @@ which is contrasted with W.E.T, which stands for "we enjoy typing" or "write eve
 ```
 
     var callMe = function() {
-    callMe();
-    callMe();
-    callMe('anytime');
+        callMe();
+        callMe();
+        callMe('anytime');
     };
 
 ```
@@ -185,22 +185,21 @@ which is contrasted with W.E.T, which stands for "we enjoy typing" or "write eve
 2. Execute Fn body.
 
     until... <br>
-    ... another fn is called:
-        Pause the current execution and start at step 1.
-
-    ... a return is hit:
-        Pop the current Fn off the stack.
+    ... another fn is called: <br>
+        Pause the current execution and start at step 1. <br>
+    ... a return is hit: <br>
+        Pop the current Fn off the stack. <br>
         Resume executing the previous Fn.
 
 ```
 
     var tracker = 0;
     var callMe = function() {
-    tracker++
-    if (tracker === 3) {
-        return 'loops!';
-    }
-    callMe('anytime');
+        tracker++
+        if (tracker === 3) {
+            return 'loops!';
+        }
+        callMe('anytime');
     };
 
 ```
@@ -209,34 +208,36 @@ which is contrasted with W.E.T, which stands for "we enjoy typing" or "write eve
 
 - Recursion in 4 Steps
 
-    1. Identify base case(s).
-        The typical recipe for recursion is to identify your base case, which is when do you want your loop to stop. Like that's the condition of loop. And that's your base case.
-    2. Identify recursive case(s).
-        The recursive case is the work that you want to do, So we need to identify that recursive case and we need to make sure that each time we call our recursion we're getting closer to our base case. Because otherwise, we never meet our base case, we're going to loop forever.
-    3. Return where appropriate.
-    4. Write procedures for each case that bring you closer to the base case(s).
+1. Identify base case(s). <br>
+    The typical recipe for recursion is to identify your base case, which is when do you want your loop to stop. Like that's the condition of loop. And that's your base case.
+2. Identify recursive case(s). <br>
+    The recursive case is the work that you want to do, So we need to identify that recursive case and we need to make sure that each time we call our recursion we're getting closer to our base case. Because otherwise, we never meet our base case, we're going to loop forever.
+3. Return where appropriate.
+4. Write procedures for each case that bring you closer to the base case(s).
 
-    ```
 
-        var callMyself = function() {
-            if() {
-                // base case
-                return;
-            } else {
-                // recursive case
-                callMyself();
-            }
+```
+
+    var callMyself = function() {
+        if() {
+            // base case
             return;
-        };
+        } else {
+            // recursive case
+            callMyself();
+        }
+        return;
+    };
 
-    ```
+```
 
-    Get really familiar with translating loops into recursion and recursion into loops, that's the goal. Because loops are easy to reason about recursion, is just a loop. How do we put those two things together that's what we're doing.
+Get really familiar with translating loops into recursion and recursion into loops, that's the goal. Because loops are easy to reason about recursion, is just a loop. How do we put those two things together that's what we're doing.
 
 - Looping
 - Factorial with a Loop and Recursion
 - Loop to Recursion
-- Recursions .vs Loops
+- Recursions .vs Loops 
+
     Recursion can always be implemented as a loop, but in some situations, believe it or not, it is simpler to use recursion.
 
     **Tail-Call Optimization**
