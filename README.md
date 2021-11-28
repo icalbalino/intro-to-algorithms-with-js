@@ -214,7 +214,7 @@ which is contrasted with W.E.T, which stands for "we enjoy typing" or "write eve
     - Identify recursive case(s). <br>
         The recursive case is the work that you want to do, So we need to identify that recursive case and we need to make sure that each time we call our recursion we're getting closer to our base case. Because otherwise, we never meet our base case, we're going to loop forever.
     - Return where appropriate.
-    - Write procedures for each case that bring you closer to the base case(s). <br>
+    - Write procedures for each case that bring you closer to the base case(s). <br> <br>
 
     ```
 
