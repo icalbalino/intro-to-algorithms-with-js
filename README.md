@@ -186,23 +186,23 @@ which is contrasted with W.E.T, which stands for "we enjoy typing" or "write eve
 
     until... <br>
     ... another fn is called:
-    - Pause the current execution and start at step 1.
+    - Pause the current execution and start at step 1. <br>
     ... a return is hit:
     - Pop the current Fn off the stack.
     - Resume executing the previous Fn.
 
-    ```
+```
 
-        var tracker = 0;
-        var callMe = function() {
-            tracker++
-            if (tracker === 3) {
-                return 'loops!';
-            }
-            callMe('anytime');
-        };
+    var tracker = 0;
+    var callMe = function() {
+        tracker++
+        if (tracker === 3) {
+            return 'loops!';
+        }
+        callMe('anytime');
+    };
 
-    ```
+```
 
 ### **Looping with Recursion**
 
@@ -213,22 +213,22 @@ which is contrasted with W.E.T, which stands for "we enjoy typing" or "write eve
     - Identify recursive case(s). <br>
         The recursive case is the work that you want to do, So we need to identify that recursive case and we need to make sure that each time we call our recursion we're getting closer to our base case. Because otherwise, we never meet our base case, we're going to loop forever.
     - Return where appropriate.
-    - Write procedures for each case that bring you closer to the base case(s).
+    - Write procedures for each case that bring you closer to the base case(s). <br>
 
-    ```
+```
 
-        var callMyself = function() {
-            if() {
-                // base case
-                return;
-            } else {
-                // recursive case
-                callMyself();
-            }
+    var callMyself = function() {
+        if() {
+            // base case
             return;
-        };
+        } else {
+            // recursive case
+            callMyself();
+        }
+        return;
+    };
 
-    ```
+```
 
     Get really familiar with translating loops into recursion and recursion into loops, that's the goal. Because loops are easy to reason about recursion, is just a loop. How do we put those two things together that's what we're doing.
 
