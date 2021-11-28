@@ -206,7 +206,7 @@ which is contrasted with W.E.T, which stands for "we enjoy typing" or "write eve
 
 ### **Looping with Recursion**
 
-- Recursion in 4 Steps
+1. Recursion in 4 Steps
 
     1. Identify base case(s). <br>
        The typical recipe for recursion is to identify your base case, which is when do you want your loop to stop. Like that's the condition of loop. And that's your base case.
