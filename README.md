@@ -185,24 +185,24 @@ which is contrasted with W.E.T, which stands for "we enjoy typing" or "write eve
 2. Execute Fn body.
 
     until... <br>
-    ... another fn is called: <br>
-        Pause the current execution and start at step 1. <br>
-    ... a return is hit: <br>
-        Pop the current Fn off the stack. <br>
-        Resume executing the previous Fn.
+    ... another fn is called:
+    - Pause the current execution and start at step 1.
+    ... a return is hit:
+    - Pop the current Fn off the stack.
+    - Resume executing the previous Fn.
 
-```
+    ```
 
-    var tracker = 0;
-    var callMe = function() {
-        tracker++
-        if (tracker === 3) {
-            return 'loops!';
-        }
-        callMe('anytime');
-    };
+        var tracker = 0;
+        var callMe = function() {
+            tracker++
+            if (tracker === 3) {
+                return 'loops!';
+            }
+            callMe('anytime');
+        };
 
-```
+    ```
 
 ### **Looping with Recursion**
 
@@ -215,28 +215,27 @@ which is contrasted with W.E.T, which stands for "we enjoy typing" or "write eve
     - Return where appropriate.
     - Write procedures for each case that bring you closer to the base case(s).
 
+    ```
 
-```
-
-    var callMyself = function() {
-        if() {
-            // base case
+        var callMyself = function() {
+            if() {
+                // base case
+                return;
+            } else {
+                // recursive case
+                callMyself();
+            }
             return;
-        } else {
-            // recursive case
-            callMyself();
-        }
-        return;
-    };
+        };
 
-```
+    ```
 
-Get really familiar with translating loops into recursion and recursion into loops, that's the goal. Because loops are easy to reason about recursion, is just a loop. How do we put those two things together that's what we're doing.
+    Get really familiar with translating loops into recursion and recursion into loops, that's the goal. Because loops are easy to reason about recursion, is just a loop. How do we put those two things together that's what we're doing.
 
-- Looping
-- Factorial with a Loop and Recursion
-- Loop to Recursion
-- Recursions .vs Loops 
+2. Looping
+3. Factorial with a Loop and Recursion
+4. Loop to Recursion
+5. Recursions .vs Loops 
 
     Recursion can always be implemented as a loop, but in some situations, believe it or not, it is simpler to use recursion.
 
