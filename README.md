@@ -216,20 +216,20 @@ which is contrasted with W.E.T, which stands for "we enjoy typing" or "write eve
     - Return where appropriate.
     - Write procedures for each case that bring you closer to the base case(s). <br>
 
-```
+    ```
 
-    var callMyself = function() {
-        if() {
-            // base case
+        var callMyself = function() {
+            if() {
+                // base case
+                return;
+            } else {
+                // recursive case
+                callMyself();
+            }
             return;
-        } else {
-            // recursive case
-            callMyself();
-        }
-        return;
-    };
+        };
 
-```
+    ```
 
     Get really familiar with translating loops into recursion and recursion into loops, that's the goal. Because loops are easy to reason about recursion, is just a loop. How do we put those two things together that's what we're doing.
 
