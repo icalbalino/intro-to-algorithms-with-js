@@ -275,7 +275,6 @@ Divide and Conquer it's a recursive algorithm. We're always going to be working 
 
         - **Bubble Sort** <br>
             Loop through an array, comparing adjacent indices and swapping the greater value to the end.
-
         - **Insertion Sort**
         - **Selection Sort** <br>
             Which you basically take an empty or another empty array and then you choose or where you choose the biggest one or you actually could choose the smallest one and then you push it into that array and then you choose the next smallest one you push it to that array and then it builds a new array with the sorted values.
@@ -287,7 +286,7 @@ Divide and Conquer it's a recursive algorithm. We're always going to be working 
 
         Mergesort and Quicksort are a little harder to reason about because we are going to be recursively handling the sort.
 
-        - **Mergesort**
+        - **Mergesort** <br>
             Recursively merge sorted sub-lists. The merge with merge sort we take sorted lists, so we have to start with a sorted lists and then we sort two sorted lists.
 
             **Concept: Merging Lists** <br>
@@ -298,35 +297,32 @@ Divide and Conquer it's a recursive algorithm. We're always going to be working 
             Step 2: Repeatedly merge subarrays and sort on each merge
 
             **Pseudocode: Merge Sort** <br>
-            mergeSort(list)
-                base case: if list.length < 2, return
-                break the list into halves L & R
-                Lsorted = mergeSort(L)
-                Rsorted = mergeSort(R)
+            mergeSort(list) <br>
+                base case: if list.length < 2, return <br>
+                break the list into halves L & R <br>
+                Lsorted = mergeSort(L) <br>
+                Rsorted = mergeSort(R) <br>
                 return merge(Lsorted, Rsorted)
 
-
-            **Pseudocode: Merge**
-            mergeSort(list)
-                1. initialize n to the length of the list
-                2. base case is if n < 2, just return
-                3. initialize mid to n/2
-                4. left = left slice of array to mid - 1
-                5. right = right slice of array mid to n - 1
-                6. mergeSort(left)
-                7. mergeSort(right)
+            **Pseudocode: Merge** <br>
+            mergeSort(list) <br>
+                1. initialize n to the length of the list <br>
+                2. base case is if n < 2, just return <br>
+                3. initialize mid to n/2 <br>
+                4. left = left slice of array to mid - 1 <br>
+                5. right = right slice of array mid to n - 1 <br>
+                6. mergeSort(left) <br>
+                7. mergeSort(right) <br>
                 8. merge(left, right)
 
-            **Simplified Analysis** --> O(n*logn)
-            ( 1, 2, 3 ) --> constant
-            ( 4, 5 ) --> N/A
-            ( 6, 7 ) --> n/2
-            ( 8 ) --> linear
+            **Simplified Analysis: O(n*logn)** <br>
+                ( 1, 2, 3 ) --> constant <br>
+                ( 4, 5 ) --> N/A <br>
+                ( 6, 7 ) --> n/2 <br>
+                ( 8 ) --> linear 
             
             Tip: Recursion [O(log(n))] to divide the list, and the linear portion [O(n)] to merge the list together again causes the sorting algorithm to have O(n*log(n)) time complexity
 
         - **Quiksort**
 
-    - [Comparison Sorting Algorithms Animation](http://rebootjeff.github.io/comparisonsort/)
-
-2. 
+2. [Comparison Sorting Algorithms Animation](http://rebootjeff.github.io/comparisonsort/)
