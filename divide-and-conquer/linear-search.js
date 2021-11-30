@@ -1,7 +1,6 @@
 // A: Implement linear search.
 function linearSearch(list, item) { }
 linearSearch([2, 6, 7, 90, 103], 90);
-
 // TASK: Implement binary search.
 function binarySearch(list, item) { }
 binarySearch([2, 6, 7, 90, 103], 90);
@@ -20,7 +19,7 @@ function linear(list, item) {
     console.log('linear search : ')
     return console.log(`ada di index ke - [${i}]`);
 }
-linear([2, 6, 7, 90, 103], 900);
+linear([2, 6, 7, 90, 103], 90);
 
 
 // binary search
@@ -29,7 +28,6 @@ function binary(list, item) {
     var min = 0, max = list.length - 1, temp;
     while (min <= max) {
         temp = Math.floor((min + max) / 2);
-
         if (list[temp] === item) {
             console.log('binary search : ')
             return console.log(`array list (${list[temp]}) ada di index ke - [${temp}]!`)

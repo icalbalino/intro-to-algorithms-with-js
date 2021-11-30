@@ -253,7 +253,7 @@ which is contrasted with W.E.T, which stands for "we enjoy typing" or "write eve
 
 Divide dan Conquer adalah teknik rekursif untuk memecahkan problem yang lebih besar menjadi subproblems, dan melakukan pekerjaan pada masing-masing submasalah tersebut untuk mencapai beberapa tujuan, beberapa solusi. So a classic example of a divide and conquer algorithm is ` binary search `.
 
-**Binary Search**, Search for a value in a sorted array by cutting the side of the search area in half. 
+**Binary Search**, Search for a value in a sorted array by cutting the side of the search area in half. <br>
 **Linear Search**, Search for a value in an array by checking each value in order.
 
 Recursive calls to a subset of the problem
