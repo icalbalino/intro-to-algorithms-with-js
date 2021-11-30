@@ -289,14 +289,14 @@ Divide and Conquer it's a recursive algorithm. We're always going to be working 
         - **Mergesort** <br>
             Recursively merge sorted sub-lists. The merge with merge sort we take sorted lists, so we have to start with a sorted lists and then we sort two sorted lists.
 
-            - **Concept: Merging Lists** <br>
+            1. **Concept: Merging Lists** <br>
                 The merge step takes two sorted lists and merges them into 1 sorted list.
 
-            - **Concept: Merge Sort** <br>
+            2. **Concept: Merge Sort** <br>
                 Step 1: Divide input array into 'n' single element subarrays <br>
                 Step 2: Repeatedly merge subarrays and sort on each merge
 
-            - **Pseudocode: Merge Sort** <br>
+            3. **Pseudocode: Merge Sort** <br>
                 - mergeSort(list) <br>
                     base case: if list.length < 2, return <br>
                     break the list into halves L & R <br>
@@ -304,18 +304,18 @@ Divide and Conquer it's a recursive algorithm. We're always going to be working 
                     Rsorted = mergeSort(R) <br>
                     return merge(Lsorted, Rsorted)
 
-            - **Pseudocode: Merge** <br>
+            4. **Pseudocode: Merge** <br>
                 - mergeSort(list) <br>
-                    1. initialize n to the length of the list <br>
-                    2. base case is if n < 2, just return <br>
-                    3. initialize mid to n/2 <br>
-                    4. left = left slice of array to mid - 1 <br>
-                    5. right = right slice of array mid to n - 1 <br>
-                    6. mergeSort(left) <br>
-                    7. mergeSort(right) <br>
-                    8. merge(left, right)
+                    1 initialize n to the length of the list <br>
+                    2 base case is if n < 2, just return <br>
+                    3 initialize mid to n/2 <br>
+                    4 left = left slice of array to mid - 1 <br>
+                    5 right = right slice of array mid to n - 1 <br>
+                    6 mergeSort(left) <br>
+                    7 mergeSort(right) <br>
+                    8 merge(left, right)
 
-            - **Simplified Analysis: O(n*logn)** <br>
+            5. **Simplified Analysis: O(n*logn)** <br>
                 ( 1, 2, 3 ) --> constant <br>
                 ( 4, 5 ) --> N/A <br>
                 ( 6, 7 ) --> n/2 <br>
