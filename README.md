@@ -293,27 +293,27 @@ Divide and Conquer it's a recursive algorithm. We're always going to be working 
                 The merge step takes two sorted lists and merges them into 1 sorted list.
 
             2. **Concept: Merge Sort** <br>
-                Step 1: Divide input array into 'n' single element subarrays <br>
+                Step 1: Divide input array into **'n'** single element subarrays <br>
                 Step 2: Repeatedly merge subarrays and sort on each merge
 
             3. **Pseudocode: Merge Sort** <br>
                 - mergeSort(list) <br>
-                    base case: if list.length < 2, return <br>
-                    break the list into halves L & R <br>
-                    Lsorted = mergeSort(L) <br>
-                    Rsorted = mergeSort(R) <br>
-                    return merge(Lsorted, Rsorted)
+                    base case: `if` `list.length < 2`, `return` <br>
+                    break the `list` into halves L & R <br>
+                    `Lsorted = mergeSort(L)` <br>
+                    `Rsorted = mergeSort(R)` <br>
+                    `return merge(Lsorted, Rsorted)`
 
             4. **Pseudocode: Merge** <br>
                 - mergeSort(list) <br>
-                    1 initialize n to the length of the list <br>
-                    2 base case is if n < 2, just return <br>
-                    3 initialize mid to n/2 <br>
-                    4 left = left slice of array to mid - 1 <br>
-                    5 right = right slice of array mid to n - 1 <br>
-                    6 mergeSort(left) <br>
-                    7 mergeSort(right) <br>
-                    8 merge(left, right)
+                    1 initialize `n` to the length of the list <br>
+                    2 base case is `if` `n < 2`, just `return` <br>
+                    3 initialize `mid` to `n/2` <br>
+                    4 `left = left` slice of `array` to `mid - 1` <br>
+                    5 `right = right` slice of `array mid` to `n - 1` <br>
+                    6 `mergeSort(left)` <br>
+                    7 `mergeSort(right)` <br>
+                    8 `merge(left, right)`
 
             5. **Simplified Analysis: O(n*logn)** <br>
                 ( 1, 2, 3 ) --> constant <br>
@@ -321,7 +321,7 @@ Divide and Conquer it's a recursive algorithm. We're always going to be working 
                 ( 6, 7 ) --> n/2 <br>
                 ( 8 ) --> linear 
             
-            Tip: Recursion [O(log(n))] to divide the list, and the linear portion [O(n)] to merge the list together again causes the sorting algorithm to have O(n*log(n)) time complexity
+            Tip: Recursion ` [O(log(n))] ` to divide the list, and the linear portion ` [O(n)] ` to merge the list together again causes the sorting algorithm to have ` O(n*log(n)) ` time complexity.
 
         - **Quiksort**
 
