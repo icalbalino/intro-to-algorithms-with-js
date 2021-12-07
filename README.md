@@ -326,3 +326,11 @@ Divide and Conquer it's a recursive algorithm. We're always going to be working 
         - **Quiksort**
 
 2. [Comparison Sorting Algorithms Animation](http://rebootjeff.github.io/comparisonsort/)
+
+## Greedy Algorithms
+
+Greedy Approach : <br>
+Greedy algorithms which is given a choice, they're always make the locally optimal choice without considering the big picture!
+
+Brute Force Approach: <br>
+Calculate every single combination possible and keep track of the minimum.
