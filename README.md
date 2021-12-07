@@ -334,3 +334,18 @@ Greedy algorithms which is given a choice, they're always make the locally optim
 
 **Brute Force Approach** : <br>
 Calculate every single combination possible and keep track of the minimum.
+
+## Dynamic Algorithms
+
+If you can break it into the subproblems and the subproblems are optimal, meaning that they are going to give you the correct answer, you can cache these values.
+
+**Dynamic Approach** :
+Cache values to avoid repeated calculations.
+
+**DP Qualities** :
+Optimal Substructure (tends to be recursive), Overlapping Subproblems
+
+**DP vs Divide & Conquer**
+
+**DP Approaches** :
+Top-Down (recursive)(memoization) vs Bottom-Up (iterative)
